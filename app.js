@@ -65,7 +65,7 @@
     // featured cards
     var feat = document.getElementById("featured");
     if (feat) {
-      var imgs = { monster: "burger-hero.jpg", "big-bacon": "veggie-burger.jpg", meister: "milkshake.jpg" };
+      var imgs = { monster: "burger-hero.jpg", "big-bacon": "big-bacon.jpg", meister: "meister.jpg" };
       feat.innerHTML = FEATURED.map(function (id) {
         var it = findItem(id);
         return '<article class="card"><div class="card-img"><img src="' + (imgs[id] || "burger-hero.jpg") + '" alt=""></div>' +
